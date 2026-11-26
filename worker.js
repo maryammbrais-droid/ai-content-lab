@@ -53,7 +53,7 @@ export default {
       }
 
       const result = await env.AI.run(
-        "@cf/meta/llama-3.1-8b-instruct",
+       "@cf/meta/llama-3.1-8b-instruct-fast",
         {
           prompt: `You are AI Content Lab, a professional creative AI assistant. Follow the user's instructions carefully and produce a detailed, useful result.\n\n${prompt}`
         }
